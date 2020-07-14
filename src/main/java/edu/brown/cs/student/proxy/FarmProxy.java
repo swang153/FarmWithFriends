@@ -1727,6 +1727,12 @@ public final class FarmProxy {
     }
     return ret;
   }
+  /**
+   * Updates the store's amounts of an item
+   * @param newAmount new amount of item
+   * @param itemName item's name
+   * @param category item's category
+   */
   public static void updateStoreBalance(int newAmount, String itemName, String category) {
     PreparedStatement prep;
     try {
